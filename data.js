@@ -12,24 +12,32 @@ let users = [{
 ];
 
 let cars = [{
+        id: 1,
         make: 'BMW',
         model: '3 series',
-        color: 'Red'
+        colour: 'Red',
+        ownedBy: 1
     },
     {
+        id: 2,
         make: 'Mercedes',
         model: 'C series',
-        color: 'Blue'
+        colour: 'Blue',
+        ownedBy: 1
     },
     {
+        id: 3,
         make: 'Audi',
         model: 'A4',
-        color: 'White'
+        colour: 'White',
+        ownedBy: 3
     },
     {
+        id: 4,
         make: 'BMW',
         model: '5 series',
-        color: 'Black'
+        colour: 'Black',
+        ownedBy: 4
     },
 ]
 
